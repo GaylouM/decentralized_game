@@ -1,18 +1,18 @@
 {
   "ignore": [
     "README.md",
-    ".gitignore"
-    "box-img-lg-template.png"
-    "box-img-sm-template.png"
+    ".gitignore",
+    "box-img-lg-template.png",
+    "box-img-sm-template.png",
   ],
   "commands": {
     "Compile contracts": "truffle compile",
     "Migrate contracts": "truffle migrate",
-    "Test contracts": "truffle test"
-    "Load planet to contract": "truffle exec tools/load_planet_to_contract.js"
-    "Load spaceships to contract": "truffle exec tools/load_spaceship_to_contract.js"
+    "Test contracts": "truffle test",
+    "Load planet to contract": "truffle exec tools/load_planet_to_contract.js",
+    "Load spaceships to contract": "truffle exec tools/load_spaceship_to_contract.js",
   },
   "hooks": {
-    "post-unpack": "npm install"
+    "post-unpack": "npm install",
   }
 }
